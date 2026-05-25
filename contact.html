@@ -3,24 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Contact</title>
 </head>
 <body>
 
     <header><br/>
-		<form id="editForm">
+		<form class="editForm">
 			<label for="firstname">First name</label>
-			<input type="text" name="firstname" id="firstname"><br/>
+            <input 
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Enter your full name">
+            <br>
+
 			<label for="lastname">Lastname</label>
-			<input type="text" name="lastname" id="lastname"><br/>
+			<input 
+            type="text" 
+            name="lastname" 
+            id="lastname"
+            name="lastname"
+            placeholder="Enter your last name">
+            <br>
+
 			<label for="mobile">Mobile</label>
-			<input type="text" name="mobile" id="mobile"><br/>
+			<input 
+            type="text" 
+            id="mobile" 
+            name="mobile"
+            placeholder="Enter your mobile number">
+            <br>
+
 			<label for="email">Email</label>
-			<input type="text" name="email" id="email"><br/>
+			<input 
+            type="text" 
+            id="email" 
+            name="email"
+            placeholder="Enter your email address">
+            <br/>
 			<button type="submit" id="submitForm">Submit</button>
 		</form>
 		<br/>
-        <nav>
+        <nav class="contact-nav">
             <ul>
                 <li><a href="task.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
