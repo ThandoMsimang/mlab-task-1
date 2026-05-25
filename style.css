@@ -266,7 +266,7 @@ textarea{
 }
 footer{
     background-color: #1a1814;
-    color: #fff;
+    color: #f9cdcd;
     margin-top: 0;
     }
     footer h2{
@@ -298,6 +298,7 @@ footer{
         font-size: 0.95rem;
         max-width: 400px;
     }
+    
 
 
 
